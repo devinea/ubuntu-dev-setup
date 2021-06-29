@@ -115,7 +115,7 @@ sudo apt-get update && sudo apt-get install --no-install-recommends yarn
 echo '"--emoji" true' >> ~/.yarnrc
 
 echo 'Installing Lerna'
-yarn global add lerna
+sudo npm i -g lerna
 clear
 
 echo 'Installing VSCode'
